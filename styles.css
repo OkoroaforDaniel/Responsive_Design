@@ -382,4 +382,14 @@ input [type=text] {
 input [type=email] {
     width: auto;
 }
+div.footer-input{
+    flex-direction: column;
+}
+input[type=text]{
+    margin-bottom: 20px;
+    width: 50%;
+}
+input[type=email]{
+    width: 50%;
+}
 }
